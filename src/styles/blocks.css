@@ -1,0 +1,9 @@
+.hangman-canvas{
+  height: 350px;
+  width: 500px;
+}
+
+.button {
+  padding: calc(var(--s-xs) / 3);
+  font-weight: bold;
+}
