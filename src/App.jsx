@@ -1,9 +1,12 @@
+import { Route, Routes } from "@solidjs/router"
 import GameSettings from "./components/GameSettings"
 
 export default function App () {
   return(
     <div>
-      <GameSettings />
+      <Routes>
+        <Route path="/" element={GameSettings}/>
+      </Routes>
     </div>
   )
 }
