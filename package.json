@@ -1,0 +1,32 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "The old classic hangman wordplay to play with your friends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guirdo/hangman.git"
+  },
+  "keywords": [
+    "game",
+    "wordplay"
+  ],
+  "author": "Seb Mendez <Guirdo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guirdo/hangman/issues"
+  },
+  "homepage": "https://github.com/Guirdo/hangman#readme",
+  "devDependencies": {
+    "vite": "^4.2.1",
+    "vite-plugin-solid": "^2.6.1"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.15"
+  }
+}
