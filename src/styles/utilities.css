@@ -12,3 +12,11 @@
 .p-sm { padding: var(--s-sm) }
 .p-md { padding: var(--s-md) }
 .p-lg { padding: var(--s-lg) }
+
+.flex-wrap { flex-wrap: wrap }
+.flex-grow-2 { flex-grow: 2 }
+
+.justify-content-center { justify-content: center }
+.justify-content-space-between { justify-content: space-between }
+
+.align-items-center { align-items: center }
